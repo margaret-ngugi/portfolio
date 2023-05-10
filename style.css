@@ -1,0 +1,94 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: palevioletred;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 40px;
+   
+}
+.navbar{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    font-size: 20px;
+    transition: 0,4s ease-in-out;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-weight: bold;
+
+   
+}
+.navbar a:hover{
+    color: blue;
+}
+.image{
+    height: 400px;
+    width: 350px;
+    border-radius: 60%;
+    margin-top: 10%;
+    margin-left: 8%;
+    animation: floatImage as ease-in-out infinite;
+    @keyframes floatImage{
+        transform:translate y(0)
+    }
+
+}
+.details{
+    margin-left: 50%;
+    margin-top: -25%;
+    font-size: 50px;
+    color: black;
+    font-weight: bolder;
+    
+}
+button{
+    margin-left: 50%;
+    margin-top: 5%;
+    
+    border-radius: 15px;
+    padding: 1%;
+    background-color: aqua;
+}
+.main{
+    color: chartreuse;
+    margin-left: 50%;
+    margin-top: 1%;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.about{
+    
+    background-color: black;
+    width: 100%;
+    height: 50vh;
+    border-radius: 40px;
+    margin-top: 3%;
+    
+
+}
+.detail{
+    font-size: 20px;
+    margin-top: 6%;
+    margin-left: 30%;
+    color: white;
+    
+
+    
+}
+.head{
+    margin-left: 30%;
+    color: blue;
+    font-weight: bold;
+    
+}
