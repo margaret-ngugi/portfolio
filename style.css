@@ -19,7 +19,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    color: black;
+    color: white;
     font-size: 20px;
     transition: 0,4s ease-in-out;
     margin-left: 400px;
@@ -91,4 +91,36 @@ button{
     color: blue;
     font-weight: bold;
     
+}
+.cv{
+  
+    background-color: lightgreen;
+    width: 100%;
+    height: 100vh;
+    border-radius: 40px;
+    margin-top: 3%;
+}
+.mycv{
+    margin-left: 25%;
+}
+.resume{
+    margin-left: 25%;
+    color: blue;
+}
+.projects{
+    
+    background-color: lightgray;
+    border-radius: 20px;
+    width: 100%;
+    height: 30vh;
+    margin-top: 3%;
+}
+.project{
+    margin-left: 25%;
+}
+.contact{
+    background-color: lightpink;
+    border-radius: 10px;
+    margin-top: 3%;
+
 }
